@@ -11,5 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        SingletonToastMessage.show(this,"Hello my first library !!")
     }
 }
